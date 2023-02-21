@@ -24,21 +24,18 @@ Vídeo: https://www.youtube.com/watch?v=6SZOPKs9SUg&t=901s
 
 Observação: <br />
 1) Este comando deve criar o arquivo tsconfig.json que é ajustado depois:
-> "target": "es2018",
-<br />
-> "lib": ["es2018", "esnext.asynciterable"],
-<br />
-> "experimentalDecorators": true,
-<br />
-> "emitDecoratorMetadata": true,
-<br />
-> "strictPropertyInitialization": false,
-<br />
+> "target": "es2018",<br />
+> "lib": ["es2018", "esnext.asynciterable"],<br />
+> "experimentalDecorators": true,<br />
+> "emitDecoratorMetadata": true,<br />
+> "strictPropertyInitialization": false,<br />
+
 2. Colocar o import no arquiv index.ts:
 > import "reflect-metadata";
 <br />
+
 3. Caso de o erro abaixo, o import do item 2 deve ficar no início do arquivo.
-[ERROR] 17:18:13 TypeError: Reflect.getMetadata is not a function
+[ERROR] 17:18:13 TypeError: Reflect.getMetadata is not a function<br />
 <br />
 
 # Frontend
@@ -49,11 +46,10 @@ Observação: <br />
 > ? Project name: > frontend
 > ? Select a framework: >
 <br />
->    React
-<br />
-> ? Select a variant: >
-<br />
->    react-ts
+>    React<br />
+> ? Select a variant: ><br />
+>    react-ts<br />
+
 <br />
 
 ## Instalar as ferramentas para o frontend
