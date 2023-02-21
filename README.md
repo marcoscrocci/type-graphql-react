@@ -34,7 +34,7 @@ Observação: <br />
 > import "reflect-metadata";
 <br />
 
-3. Caso de o erro abaixo, o import do item 2 deve ficar no início do arquivo.
+3. Caso de o erro abaixo, o import do item 2 deve ficar no início do arquivo.<br />
 [ERROR] 17:18:13 TypeError: Reflect.getMetadata is not a function<br />
 <br />
 
