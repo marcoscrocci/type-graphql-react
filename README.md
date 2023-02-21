@@ -41,11 +41,9 @@ Observação: <br />
 # Frontend
 
 ## Criar a pasta do frontend pelo vite:
-> npm create vite@latest
-<br />
+> npm create vite@latest<br />
 > ? Project name: > frontend
-> ? Select a framework: >
-<br />
+> ? Select a framework: ><br />
 >    React<br />
 > ? Select a variant: ><br />
 >    react-ts<br />
